@@ -1,0 +1,46 @@
+{
+  "name": "gatsby-source-git-as-filesystem",
+  "version": "0.0.1",
+  "description": "Gatsby plugin for pulling files into Gatsby from Git repositories",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-source-plugin",
+    "gatsby-source-filesystem",
+    "git"
+  ],
+  "author": "WeZZard",
+  "license": "MIT",
+  "peerDependencies": {
+    "gatsby": ">2.0.0-alpha"
+  },
+  "dependencies": {
+    "fast-glob": "^3.2.11",
+    "fs-extra": "^10.1.0",
+    "gatsby-source-filesystem": "^4.12.1",
+    "git-url-parse": "^11.6.0",
+    "rimraf": "^3.0.2",
+    "simple-git": "^3.7.0"
+  },
+  "devDependencies": {
+    "@types/git": "^0.0.18",
+    "@types/git-url-parse": "^9.0.1",
+    "@types/node": "^16.11.27",
+    "ts-node": "^10.6.0",
+    "typescript": "^4.5.5"
+  },
+  "files": [
+    "gatsby-node.js",
+    "index.js",
+    "index.d.ts",
+    "src/**/*.js",
+    "src/**/*.d.ts"
+  ]
+}
